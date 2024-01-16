@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Semana 12</title>
+    <!-- Favicon -->
+    <link href="favicon/favicon_12.ico" rel="icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container" id="home">
+        <div class="col-12 text-center">
+            <div class="tm-page-header">
+                <i class="fas fa-4x fa-laptop-code mr-4"></i>
+                <h1 class="d-inline-block text-uppercase">Semana 12</h1>
+            </div>
+        </div>
+    </div>
+    <!-- header fin -->
+
+
+    <!-- navbar -->
+    <div class="tm-nav-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav"
+                            aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="tmMainNav">
+                            <ul class="navbar-nav mx-auto tm-navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#temas">¿Que temas aprendió?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#definiciones">Definiciones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#procedimientos">Procedimientos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#resultados">Resultados</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link external" href="index.html">Volver</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar fin -->
+
+
+    <!-- Temas -->
+    <div class="container tm-features-section" id="temas">
+        <p></p>
+        <div class="row tm-features-row">
+            <header class="tm-feature-header">
+                <i class="fas fa-5x fa-laptop tm-feature-icon"></i>
+                <h3 class="tm-feature-h">¿Que temas aprendió?</h3>
+            </header>
+            <p>
+                Durante el transcurso de esta semana, se adquirió conocimiento sobre el uso fundamental de useReducer y
+                useContext como herramientas clave en el desarrollo. Se llevaron a cabo los siguientes procedimientos:
+                se implementó useReducer para gestionar el estado de la aplicación, creando un reducer específico para
+                controlar acciones como la adición de usuarios; la lógica de manejo de formularios se modularizó
+                mediante la creación del hook personalizado useForm; los componentes fueron estructurados en archivos
+                independientes para mejorar la organización y fomentar la reutilización del código; se incorporó el uso
+                de referencias (useRef) para acceder directamente a nodos del DOM; se realizaron solicitudes a APIs
+                externas con la ayuda de la biblioteca Axios; se implementaron alertas visuales utilizando la librería
+                SweetAlert2. Además, se empleó useContext para transmitir eficientemente valores de estado entre
+                componentes, separando la lógica de presentación y simplificando la estructura del proyecto. En resumen,
+                se logró un proyecto bien estructurado, aplicando conceptos esenciales de React para desarrollar un CRUD
+                funcional y modular.
+            </p>
+        </div>
+    </div>
+    <!-- Temas fin -->
+
+
+    <!-- Definiciones -->
+    <div class="container" id="definiciones">
+        <div class="row">
+            <div class="col-12">
+                <div class="tm-parallax">
+                    <header class="tm-parallax-header">
+                        <h2 class="">Definiciones</h2>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="tm-activity-block">
+                    <div class="tm-activity-img-container">
+                        <img src="img/semanas/semana 06/react.png" alt="Image" />
+                    </div>
+                    <div class="tm-activity-block-text">
+                        <h3 class="tm-text-blue">useReducer</h3>
+                        <p>
+                            Hook de React que permite manejar el estado de la aplicación de una manera más compleja que
+                            useState, útil para casos donde el estado depende del anterior o se deben realizar acciones
+                            más complejas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+                    <div class="tm-activity-img-container">
+                        <img src="img/semanas/semana 06/react.png" alt="Image" />
+                    </div>
+                    <div class="tm-activity-block-text">
+                        <h3 class="tm-text-blue">useContext</h3>
+                        <p>
+                            Otro Hook de React que proporciona una forma de pasar datos a través del árbol de
+                            componentes sin necesidad de pasar props manualmente en cada nivel. Reducer: Una función que
+                            especifica cómo el estado de una aplicación cambia en respuesta a acciones enviadas a través
+                            de dispatch en useReducer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tm-activity-block">
+                    <div class="tm-activity-img-container">
+                        <img src="img/semanas/semana 06/react.png" alt="Image" />
+                    </div>
+                    <div class="tm-activity-block-text">
+                        <h3 class="tm-text-blue">Custom Hook</h3>
+                        <p>
+                            Funciones personalizadas en React que encapsulan lógica específica y pueden ser reutilizadas
+                            en varios componentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tm-activity-block mr-lg-0 ml-lg-auto">
+                    <div class="tm-activity-img-container">
+                        <img src="img/semanas/semana 06/react.png" alt="GIF Image" />
+                    </div>
+                    <div class="tm-activity-block-text">
+                        <h3 class="tm-text-blue">useRef</h3>
+                        <p>
+                            Hook que proporciona una forma de acceder a nodos del DOM directamente en lugar de depender
+                            del estado de React, útil para realizar operaciones directas sobre elementos HTML.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Definiciones fin-->
+
+
+    <!-- Procedimientos -->
+    <section class="container tm-company-section" id="procedimientos">
+        <div class="row">
+            <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+                <div class="tm-company-about">
+                    <div class="tm-company-about-text">
+                        <header>
+                            <h2 class="tm-company-about-header">Procedimientos</h2>
+                        </header>
+                        <ol>
+                            <li><b>Implementación de useReducer: </b>Se incorporó useReducer para gestionar el estado de
+                                la aplicación, lo que posibilita transiciones de estado más complejas y el manejo de
+                                acciones específicas de manera eficiente.</li>
+                            <li><b>Creación de useForm: </b>Se creó el hook personalizado useForm con el objetivo de
+                                modularizar la lógica asociada al manejo de formularios, simplificando así la captura y
+                                actualización de valores de los campos del formulario.</li>
+                            <li><b>Estructuración de componentes: </b>La aplicación fue estructurada con componentes
+                                organizados en archivos independientes, una práctica que mejora la reutilización y
+                                facilita el mantenimiento del código, siguiendo las buenas prácticas de organización.
+                            </li>
+                            <li><b>Consumo de APIs con Axios: </b>Se empleó la biblioteca Axios para realizar peticiones
+                                HTTP, permitiendo la conexión y la obtención de datos desde APIs externas de manera
+                                eficaz.</li>
+                            <li><b>Uso de referencias (useRef): </b>Se utilizó el hook useRef para acceder directamente
+                                a nodos del DOM, eliminando la necesidad de depender del estado de React para obtener y
+                                manipular elementos específicos de manera más directa.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-12 tm-company-right ml-lg-auto mr-lg-0">
+                <!-- Imagen -->
+                <img src="img/procedimientos/procedimientos_12.jpeg" alt="Image" class="img-fluid" />
+            </div>
+        </div>
+    </section>
+    <!-- Procedimientos fin-->
+
+
+    <!-- Resultados -->
+    <section class="container tm-company-section" id="resultados">
+        <div class="row">
+            <div class="col-xl-9 col-lg-4 col-md-12 tm-company-right  ml-lg-auto mr-lg-0">
+                <!-- imagen -->
+                <img src="img/resultados/resultados_1.png" alt="Image" />
+            </div>
+            <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+                <div class="tm-company-about">
+                    <div class="tm-company-about-text">
+                        <header>
+                            <h2 class="tm-company-about-header">Resultados</h2>
+                        </header>
+                        <ol>
+                            <li><b>Mejora eficiente del estado: </b>Mediante la incorporación de useReducer en lugar de
+                                useState, se logró gestionar el estado en la aplicación de manera más organizada y
+                                adaptable, posibilitando una transición sin problemas entre la asignación de estados y
+                                la despacho de acciones.</li>
+                            <li><b>Modularización de la lógica de formularios: </b>La creación y aplicación del hook
+                                personalizado useForm facilitó la modularización y reutilización de la lógica asociada a
+                                los formularios. Esto simplificó la gestión de cambios en los inputs y el reinicio de
+                                los valores del formulario.</li>
+                            <li><b>Consumo eficaz de APIs externas: </b>La utilización de la biblioteca Axios para
+                                realizar solicitudes a APIs externas proporcionó un manejo robusto de operaciones
+                                asíncronas y mejoró la integración de datos externos en la aplicación React.</li>
+                            <li><b>Acceso directo a nodos del DOM: </b>La implementación de useRef permitió el acceso
+                                directo a los nodos del DOM, eliminando la necesidad de depender del estado de React
+                                para operaciones específicas. Esto mejoró la eficiencia en la interacción con elementos
+                                HTML sin desencadenar re-renderizaciones innecesarias.</li>
+                            <li><b>Estructuración clara de componentes:</b>La organización de los componentes en
+                                archivos separados facilitó la reutilización y el mantenimiento del código. La división
+                                de responsabilidades en componentes específicos mejoró la legibilidad y la escalabilidad
+                                del proyecto./li>
+                            <li><b>Implementación de contextos y reducers: </b>Se empleó el uso de contextos y reducers
+                                para compartir y gestionar el estado global en la aplicación, facilitando la
+                                comunicación entre componentes y permitiendo una gestión más eficiente de las
+                                actualizaciones de estado.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resultados fin -->
+
+
+    <!-- Pie de página -->
+    <footer class="container tm-footer">
+        <div class="row tm-footer-row">
+            <p class="col-md-10 col-sm-12 mb-0">
+                Copyright &copy; 2023 Estefani Diaz
+            </p>
+            <div class="col-md-2 col-sm-12 scrolltop">
+                <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Single Page Nav plugin works with this version of jQuery -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function detectIE() {
+            var ua = window.navigator.userAgent;
+
+            var msie = ua.indexOf("MSIE ");
+            if (msie > 0) {
+                // IE 10 or older => return version number
+                return parseInt(ua.substring(msie + 5, ua.indexOf(".", msie)), 10);
+            }
+
+            var trident = ua.indexOf("Trident/");
+            if (trident > 0) {
+                // IE 11 => return version number
+                var rv = ua.indexOf("rv:");
+                return parseInt(ua.substring(rv + 3, ua.indexOf(".", rv)), 10);
+            }
+
+            // var edge = ua.indexOf('Edge/');
+            // if (edge > 0) {
+            //     // Edge (IE 12+) => return version number
+            //     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            // }
+
+            // other browser
+            return false;
+        }
+
+        var background_image_parallax = function ($object, multiplier) {
+            multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
+            multiplier = 1 - multiplier;
+            var $doc = $(document);
+            $object.css({ "background-attatchment": "fixed" });
+            $(window).scroll(function () {
+                var from_top = $doc.scrollTop(),
+                    bg_css = "center " + multiplier * from_top + "px";
+                $object.css({ "background-position": bg_css });
+            });
+        };
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $(".scrolltop:hidden")
+                    .stop(true, true)
+                    .fadeIn();
+            } else {
+                $(".scrolltop")
+                    .stop(true, true)
+                    .fadeOut();
+            }
+
+            // Make sticky header
+            if ($(this).scrollTop() > 158) {
+                $(".tm-nav-section").addClass("sticky");
+            } else {
+                $(".tm-nav-section").removeClass("sticky");
+            }
+        });
+
+        $(function () {
+            if (detectIE()) {
+                alert(
+                    "Please use the latest version of Edge, Chrome, or Firefox for best browsing experience."
+                );
+            }
+
+            const mainNav = $("#tmMainNav");
+            mainNav.singlePageNav({
+                filter: ":not(.external)",
+                offset: $(".tm-nav-section").outerHeight(),
+                updateHash: true,
+                beforeStart: function () {
+                    mainNav.removeClass("show");
+                }
+            });
+
+            $(window).on("load scroll resize", function () {
+                var scrolled = $(this).scrollTop();
+                var vidHeight = $("#hero-vid").height();
+                var offset = vidHeight * 0.6;
+                var scrollSpeed = 0.25;
+                var windowWidth = window.innerWidth;
+
+                if (windowWidth < 768) {
+                    scrollSpeed = 0.1;
+                    offset = vidHeight * 0.5;
+                }
+
+                $("#hero-vid").css(
+                    "transform",
+                    "translate3d(-50%, " + -(offset + scrolled * scrollSpeed) + "px, 0)"
+                ); // parallax (25% scroll rate)
+            });
+
+            // Parallax image background
+            background_image_parallax($(".tm-parallax"), 0.4);
+
+            // Back to top
+            $(".scroll").click(function () {
+                $("html,body").animate(
+                    { scrollTop: $("#home").offset().top },
+                    "1000"
+                );
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
